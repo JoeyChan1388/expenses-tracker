@@ -1,0 +1,16 @@
+<div>
+    <div class="add-expense-form">
+        <h2> Add an Expense </h2>
+        <label for="title">Title <span>*</span> </label>
+        <input type="text" id="title" name="title" placeholder="Expense Title" [(ngModel)]="expenseToBeAdded.title" />
+
+        <label for="amount">Amount <span>*</span></label>
+        <input type="number" id="amount" name="amount" (focus)="clearInput()" [(ngModel)]="expenseToBeAdded.amount" />
+    
+        <label for="description">Description</label>
+        <input type="text" id="description" name="description" [(ngModel)]="expenseToBeAdded.description" />
+    
+        <button class="btn-primary" (click)="addNewExpense()">Add Expense</button>
+    </div>
+</div>
+

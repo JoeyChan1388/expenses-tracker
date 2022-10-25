@@ -1,0 +1,90 @@
+{
+  "months": [
+    {
+      "id": 1,
+      "month": "January",
+      "budget": 2000,
+      "expenses": []
+    },
+    {
+      "id": 2,
+      "month": "February",
+      "budget": 1100,
+      "expenses": []
+    },
+    {
+      "id": 3,
+      "month": "March",
+      "budget": 2000,
+      "expenses": []
+    },
+    {
+      "id": 4,
+      "month": "April",
+      "budget": 2000,
+      "expenses": []
+    },
+    {
+      "id": 5,
+      "month": "May",
+      "budget": 2000,
+      "expenses": []
+    },
+    {
+      "id": 6,
+      "month": "June",
+      "budget": 2000,
+      "expenses": []
+    },
+    {
+      "id": 7,
+      "month": "July",
+      "budget": 2000,
+      "expenses": []
+    },
+    {
+      "id": 8,
+      "month": "August",
+      "budget": 2000,
+      "expenses": []
+    },
+    {
+      "id": 9,
+      "month": "September",
+      "budget": 2000,
+      "expenses": [
+        {
+          "id": 0,
+          "title": "September Expense",
+          "description": "Rent",
+          "amount": 600
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "month": "October",
+      "budget": 2000,
+      "expenses": [
+        {
+          "id": 1,
+          "title": "Rent",
+          "description": "Rent for the month of October",
+          "amount": 1332.75
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "month": "November",
+      "budget": 2000,
+      "expenses": []
+    },
+    {
+      "id": 12,
+      "month": "December",
+      "budget": 2000,
+      "expenses": []
+    }
+  ]
+}

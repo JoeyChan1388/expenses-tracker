@@ -1,0 +1,73 @@
+.expenses-tracker-container {
+    margin: 100px auto;
+    width: 1200px;
+    height: fit-content;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(49, 49, 49);
+    padding: 20px 0px;
+}
+
+.expenses-header {
+    font-size: larger;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.even {
+    background-color: rgb(245, 245, 245);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.btn-danger {
+    background-color: rgb(220, 53, 69);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.safe {
+    color: green;
+}
+
+.danger {
+    color: red;
+}
+
+@media screen and (max-width: 1300px) {
+    .expenses-tracker-container {
+        width: 90%;
+        margin: 50px auto;
+    }
+}
